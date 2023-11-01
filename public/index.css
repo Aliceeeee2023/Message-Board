@@ -1,0 +1,48 @@
+body {
+    background-color: #222;
+    padding-top: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    background-color: #444;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.input {
+    background-color: #333;
+    width: 97%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color: #e0dddd;
+}
+
+.submit {
+    background-color: #698296;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.getMessage {
+    background-color: #444;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom:40px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.getMessage img {
+    max-width: 100%;
+}

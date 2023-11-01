@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Message Board</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div class="main">
+            <form action="/submit" method="post" enctype="multipart/form-data">
+                <label for="name" class="label">Name</label>
+                <input type="text" id="name" name="name" class="input" placeholder="Maximum Length : 30 Characters" maxlength="30"><br>
+        
+                <label for="message" class="label">Message</label>
+                <input type="text" id="message" name="message" class="input" placeholder="Maximum Length : 50 Characters" maxlength="50"><br>
+        
+                <label for="file" class="label">File</label>
+                <input type="file" id="file" name="file" class="input"><br>
+        
+                <input type="submit"  class="submit" value="Submit">
+            </form>
+            <div id="messageArea"></div>
+        </div>
+
+        <div id="getMessage" class="getMessage"></div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
